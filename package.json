@@ -1,0 +1,15 @@
+{
+  "name": "fileuploadingonedrive",
+  "version": "1.0.0",
+  "description": "Web application to avoid malicious file uploading in SFMC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alfredo Ledesma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
