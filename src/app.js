@@ -1,7 +1,7 @@
 const express = require('express');
 const webhookRoutes = require('./routes/webhook/update');
 const app = express();
-app.listen(8080, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log('server is running on port 8080')
 })
 
